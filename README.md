@@ -10,25 +10,25 @@ Swift Files:
 	ContentView:
 The views for all of the pages (minus the detailed balance view, look at home for that)
 Views:
-WelcomeScreen:
-Visuals and Styles for the first screen you see when the app is open
-Access buttons to the BudgetSelectionView and CreateBudgetView
+	WelcomeScreen:
+	Visuals and Styles for the first screen you see when the app is open
+	Access buttons to the BudgetSelectionView and CreateBudgetView
 CreateBudgetView:
-It has a finished visual appearance
-Allows users to choose a name and amount of money for a new budget
-No limits set for characters or money amount
-(function-test only) Able to save data created with a button press
+	It has a finished visual appearance
+	Allows users to choose a name and amount of money for a new budget
+	No limits set for characters or money amount
+	(function-test only) Able to save data created with a button press
 BudgetSelectionView:
-Visuals are completed but not final
-Shows the created budgets two are generated at load, Weekly: Spending and Monthly: Rent
-(function-test only) Able to access the data from the custom budgets made with CreateBudgetView
-Budgets are not visible within the app but the data can be found
+	Visuals are completed but not final
+	Shows the created budgets two are generated at load, Weekly: Spending and 	Monthly: Rent
+	(function-test only) Able to access the data from the custom budgets made 	with CreateBudgetView
+	Budgets are not visible within the app but the data can be found
 AddSubtractView:
-Completed visuals
-Accessed by the view when clicked on the button inside each budget’s individual detailed view
-Able to add and subtract from the selected budget and changes are reflected when inside the budget
-Changes do not show when outside of the budget’ specific  view
-They are not saved when the user comes back later so mods would have to be done again
+		Completed visuals
+		Accessed by the view when clicked on the button inside each 			budget’s individual detailed view
+		Able to add and subtract from the selected budget and changes are 		reflected when inside the budget
+		Changes do not show when outside of the budget’ specific  view
+		They are not saved when the user comes back later so mods would have to be done again
 ContentView:
 How the app is accessed so it starts at WelcomeScreen
 	home:
